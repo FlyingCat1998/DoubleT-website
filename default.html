@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>DoubleT Website</title>
+	<style>	
+	body {
+		margin: 0;
+	}
+	
+	#header {
+		background-color: #333333;
+		text-align: center;
+	}
+	
+	#navigation_menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333333;
+	}
+	
+	#list {
+		float: right;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#list a {
+		display: block;
+		color: lightgray;
+		text-align: center;
+		padding: 0px 40px 0px 40px; 
+		text-decoration: none;
+		font-size: 120%;
+	}
+	#list a.active {
+		color: white;
+	}
+	
+	#list a:not(.active) {
+		 color: lightgray;
+	}
+
+	#list a:hover {
+		 color: white;
+	}
+</style>
+</head>
+<body style="background-image:url('images/background.jpg'); color:white">
+	<div id="header">
+		<ul id="navigation_menu" style="text-align:vertical-align;">
+			<li id="list" style="float:left;">
+				<a href="default.html" style="padding-left:20px; padding-top:5px">
+					<img src="images/logo.png" width="170"></a></li>
+			<li id="list" style="padding-top: 20px;"><a href="#contact">LIÊN HỆ</a></li>
+			<li id="list" style="padding-top: 20px;"><a href="#news">TIN TỨC</a></li>
+			<li id="list" style="padding-top: 20px;"><a class="active" href="default.html">TRANG CHỦ</a></li>	
+		</ul>					
+	</div>
+	<center>
+		<h1 style="font-size: 300%; color:black; text-align:center;"> Thông tin nhóm </h1>
+		<img src="images/divider.png" alt="divider" width="700" height="30">
+		<img src="images/team_background.png" alt="doubleT_background" usemap="#teammap" width="1200" style="margin-top:30px; margin-bottom:40px;">
+		<map name="teammap">
+			<area shape="rect" coords="730,455,1070,540" alt="khuongtruc_name" href="members/1612746/1612746.html">
+			<area shape="rect" coords="150,455,500,540" alt="baotrung_name" href="members/1612750/1612750.html">
+			<area shape="circle" coords="898,268,165" alt="khuongtruc_ava" href="members/1612746/1612746.html">
+			<area shape="circle" coords="323,268,165" alt="baotrung_ava" href="members/1612750/1612750.html">
+		</map>
+	</center>
+</body> 
+</html>
